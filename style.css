@@ -1,0 +1,35 @@
+body{
+ display: flex;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c343c !important;
+
+}
+.card{
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid white !important;
+  background-color: black!important;
+}
+.card-body{
+  background-color: #5a6660 !important;
+  color: white !important;
+  justify-content: center;
+  align-items: center;
+}
+.card-img-top{
+  width: auto;
+  height: 200px;
+  margin: auto;
+  border: 1px solid white !important;
+}
+.card-header{
+ background-color: black!important;
+ color:white !important;
+ font-weight: bolder;
+ font-size:larger;
+}
